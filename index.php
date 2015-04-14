@@ -1,13 +1,9 @@
-<?php
+<?php include 'core/init.php';?>
+<?php include 'includes/overall/over_header.php';?>
+<!-- Default panel contents -->
+<?php include 'includes/overall/container.php';?>
 
-?>
-<!DOCTYPE html>
-<html>
-	<head>
-		<title></title>
-		</head>
-<body>
-	Test
-</body>
 
-</html>
+
+<?php output_errors($errors); ?>
+<?php include 'includes/overall/over_footer.php';?>
